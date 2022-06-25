@@ -48,7 +48,7 @@ fi
 
 # Determine and set the new value
 if [ "$1" = "disable-shadows" ]; then
-    if [ "$DISABLE_SHADOWS" = $TRUE ]; then
+    if [ "$DISABLE_SHADOWS" = "$TRUE" ]; then
         DISABLE_SHADOWS=$FALSE
     else
         DISABLE_SHADOWS=$TRUE
@@ -56,7 +56,7 @@ if [ "$1" = "disable-shadows" ]; then
     defaults write com.apple.screencapture disable-shadow -bool $DISABLE_SHADOWS
     killall SystemUIServer
 elif [ "$1" = "type" ]; then
-    if [ "$TYPE" = $PNG ]; then
+    if [ "$TYPE" = "$PNG" ]; then
         TYPE=$JPEG
     else
         TYPE=$PNG
