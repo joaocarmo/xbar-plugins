@@ -4,14 +4,14 @@
 # <bitbar.author>João Carmo</bitbar.author>
 # <bitbar.author.github>joaocarmo</bitbar.author.github>
 # <bitbar.desc>Provides you with an easy way to change screenshot settings.</bitbar.desc>
-# <bitbar.image>https://github.com/joaocarmo/swiftbar-plugins/assets/screenshort-setting.svg</bitbar.image>
+# <bitbar.image>https://raw.githubusercontent.com/joaocarmo/xbar-plugins/main/assets/screenshot-settings.svg</bitbar.image>
 # <bitbar.dependencies>bash</bitbar.dependencies>
 # <bitbar.abouturl>https://github.com/joaocarmo/swiftbar-plugins</bitbar.abouturl>
 # <swiftbar.hideAbout>false</swiftbar.hideAbout>
 # <swiftbar.hideRunInTerminal>true</swiftbar.hideRunInTerminal>
 # <swiftbar.hideLastUpdated>true</swiftbar.hideLastUpdated>
 # <swiftbar.hideDisablePlugin>true</swiftbar.hideDisablePlugin>
-# <swiftbar.hideSwiftBar>false</swiftbar.hideSwiftBar>
+# <swiftbar.hideSwiftBar>true</swiftbar.hideSwiftBar>
 # <swiftbar.refreshOnOpen>true</swiftbar.refreshOnOpen>
 
 DISABLE_SHADOWS=$(defaults read com.apple.screencapture disable-shadow 2>/dev/null)
