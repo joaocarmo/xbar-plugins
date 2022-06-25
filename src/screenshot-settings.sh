@@ -6,7 +6,7 @@
 # <bitbar.desc>Provides you with an easy way to change screenshot settings.</bitbar.desc>
 # <bitbar.image>https://raw.githubusercontent.com/joaocarmo/xbar-plugins/main/assets/screenshot-settings.svg</bitbar.image>
 # <bitbar.dependencies>bash</bitbar.dependencies>
-# <bitbar.abouturl>https://github.com/joaocarmo/swiftbar-plugins</bitbar.abouturl>
+# <bitbar.abouturl>https://github.com/joaocarmo/xbar-plugins</bitbar.abouturl>
 # <swiftbar.hideAbout>false</swiftbar.hideAbout>
 # <swiftbar.hideRunInTerminal>true</swiftbar.hideRunInTerminal>
 # <swiftbar.hideLastUpdated>true</swiftbar.hideLastUpdated>
