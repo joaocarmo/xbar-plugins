@@ -4,7 +4,7 @@
 # <bitbar.author>João Carmo</bitbar.author>
 # <bitbar.author.github>joaocarmo</bitbar.author.github>
 # <bitbar.desc>Provides you with an easy way to change macOS' native screenshot settings.</bitbar.desc>
-# <bitbar.image>https://raw.githubusercontent.com/joaocarmo/xbar-plugins/main/assets/screenshot-settings.png</bitbar.image>
+# <bitbar.image>https://raw.githubusercontent.com/joaocarmo/xbar-plugins/main/assets/screenshot-settings-preview.png</bitbar.image>
 # <bitbar.dependencies>bash, defaults, osascript</bitbar.dependencies>
 # <bitbar.abouturl>https://github.com/joaocarmo/xbar-plugins</bitbar.abouturl>
 # <swiftbar.hideAbout>false</swiftbar.hideAbout>
