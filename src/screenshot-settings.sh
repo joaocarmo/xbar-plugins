@@ -39,14 +39,14 @@ if [ -z "$LOCATION" ]; then
     LOCATION=$DEFAULT_LOCATION
 fi
 
-# Convert to bool
+# Convert from bool
 if [ "$DISABLE_SHADOWS" = "1" ]; then
     DISABLE_SHADOWS=$TRUE
 else
     DISABLE_SHADOWS=$FALSE
 fi
 
-# Determine the new value
+# Determine and set the new value
 if [ "$1" = "disable-shadows" ]; then
     if [ "$DISABLE_SHADOWS" = $TRUE ]; then
         DISABLE_SHADOWS=$FALSE
@@ -68,9 +68,6 @@ elif [ "$1" = "location" ]; then
     defaults write com.apple.screencapture location $LOCATION
     killall SystemUIServer
 fi
-
-SET_DISABLE_SHADOWS="$0 disable-shadows"
-SET_TYPE="$0 type"
 
 # Menu
 echo ":camera:"
