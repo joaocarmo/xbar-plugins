@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # <bitbar.title>Screenshot Settings</bitbar.title>
-# <bitbar.version>v1.0</bitbar.version>
+# <bitbar.version>v1.0.0</bitbar.version>
 # <bitbar.author>João Carmo</bitbar.author>
 # <bitbar.author.github>joaocarmo</bitbar.author.github>
 # <bitbar.desc>Provides you with an easy way to change macOS' native screenshot settings.</bitbar.desc>
